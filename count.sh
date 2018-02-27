@@ -12,6 +12,7 @@ fi
 while [ 1 ]
 do
   #--------------------
+  echo "/" >&2
   if [ "${count_min}" = "0" ] ; then
     echo  "+"
     count=0
