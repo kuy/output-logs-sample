@@ -12,14 +12,16 @@ fi
 while [ 1 ]
 do
   #--------------------
-  echo "/" >&2
   if [ "${count_min}" = "0" ] ; then
     echo  "+"
+    echo  "*" >&2
     count=0
   elif [ "${count_ten}" = "0" ] ; then
     echo -n "+"
+    echo -n "*" >&2
   else
     echo -n "."
+    echo -n "/" >&2
   fi
   #--------------------
   count=$((count+1))
