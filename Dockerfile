@@ -1,4 +1,4 @@
-from alpine:latest
+FROM alpine:latest
 
 ADD count.sh /
 
