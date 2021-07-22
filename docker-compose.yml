@@ -1,0 +1,8 @@
+version: "2"
+services:
+  counter1:
+    build: .
+  counter2:
+    build: .
+  counter3:
+    build: .
